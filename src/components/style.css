@@ -1,0 +1,59 @@
+button{
+    cursor: pointer;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 4px solid green;
+    padding: 20px 10px;
+}
+
+.done{
+    background-color: rgba(42, 168, 69, 0.4);
+}
+
+.item input[type="text"]{
+    width: calc(100% - 20px);
+    padding: 10px 0;
+}
+
+.item button{
+    padding: 10px 15px;
+    border: 3px solid black;
+
+}
+
+.btns, .check-item{
+    display: flex;
+}
+
+.btns{
+    gap: 40px;
+}
+
+.addItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.addItem input{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.addItem button{
+    background-color: rgb(42, 168, 69);
+    border: none;
+    padding: 15px 25px;
+}
